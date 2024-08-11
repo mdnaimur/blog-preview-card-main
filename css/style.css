@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 :root{
     --primary-color-yellow: #F4D04E;
     --primary-color-black: #11111111;
@@ -30,11 +31,9 @@ body{
 }
 
 
-
-
 .main-card{
     border: solid  1px var(--primary-color-black);
-    box-shadow: 12px 8px 10px rgba(0, 0, 0, 2);
+    box-shadow: 12px 8px 0px rgba(0, 0, 0, 2);
     background-color: var(--priamry-color-white);
     border-radius: 15px;
 
@@ -46,9 +45,11 @@ body{
     padding: 24px;
 }
 
+
 .card-img img{
     border-radius: 15px;
 }
+
 
  .card-date h5{
     font-weight: bold;
@@ -61,12 +62,48 @@ body{
 
  }
 
+
  .card-date p{
     font-size: 15px;
     font-weight: 150;
+    margin-bottom: 15px;
  }
 
-/* card-body */
+
+.card-body h2{
+    margin: 15px 0;
+}
 
 
-/* card-profile */
+.card-body p{
+    color: var(--priamry-color-gray);
+    margin: 15px 1px;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+
+.card-profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.card-profile  p{
+   font-weight: bold;
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .main-card{
+       /* padding: 18px; */
+       width: 327px;
+       height: 812px;
+    }
+
+    .card-img img{
+        width: 280px;
+    }
+  }
