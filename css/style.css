@@ -1,0 +1,72 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color-yellow: #F4D04E;
+    --primary-color-black: #11111111;
+    --priamry-color-white: #FFFFFF;
+    --priamry-color-gray: #6B6B6B;
+
+}
+
+
+body{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+    height: 100%;
+    width: 100vw;
+    padding: 30px;
+
+    background-color: var(--primary-color-yellow);
+}
+
+
+
+
+.main-card{
+    border: solid  1px var(--primary-color-black);
+    box-shadow: 12px 8px 10px rgba(0, 0, 0, 2);
+    background-color: var(--priamry-color-white);
+    border-radius: 15px;
+
+    max-width: 384px;
+    max-height: 528px;
+
+    margin-top: 130px;
+    margin-bottom: 25px;
+    padding: 24px;
+}
+
+.card-img img{
+    border-radius: 15px;
+}
+
+ .card-date h5{
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: var(--primary-color-yellow);
+
+ }
+
+ .card-date p{
+    font-size: 15px;
+    font-weight: 150;
+ }
+
+/* card-body */
+
+
+/* card-profile */
